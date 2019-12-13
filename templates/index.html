@@ -1,0 +1,50 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container text-light">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="jumbotron text-center">
+                <h1 class="display-4"><b>Tutorials for Basic Editing!</b></h1>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h4>Learn to edit with either Sony Vegas or Adobe After Effects!</h4>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row pt-5">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card bg-danger">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sony Vegas</h5>
+                            <p class="card-text">Tutorials that use Sony Vegas!</p>
+                            <a href="{{ url_for('sony_vegas') }}" class="btn btn-secondary">Go</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card bg-danger">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Adobe After Effects</h5>
+                            <p class="card-text">Tutorials that use Adobe After Effects!</p>
+                            <a href="{{ url_for('adobe') }}" class="btn btn-secondary">Go</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>
+
+{% endblock content %}
