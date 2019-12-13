@@ -1,7 +1,7 @@
 # Editing Tutorials
 
 A simple web app that provides useful Links for learning how to edit. <br>
-Use the app [here](https://www.google.com/)
+Use the app [here](https://editing-how-to.herokuapp.com/).
 
 ## Built With
 
