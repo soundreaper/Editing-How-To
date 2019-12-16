@@ -2,16 +2,14 @@ body {
     background: #222 !important;
 }
 
-#header {
-    padding-top: 5px;
-    font-size: 16px;
+.navbar {
+    background-color: #222 !important;
 }
 
 .jumbotron {
     background-color: transparent !important;
-    padding-top: 10rem;
 }
 
 .padding-top {
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
