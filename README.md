@@ -1,7 +1,7 @@
-# Editing Tutorials
+# myPagePlus
 
-A simple web app that provides useful Links for learning how to edit. <br>
-Use the app [here](https://editing-how-to.herokuapp.com/).
+A simple web app that aggregates useful links and social media for a given user.<br>
+Use the app [here](https://mypageplus.herokuapp.com/).
 
 ## Built With
 
@@ -12,3 +12,6 @@ Use the app [here](https://editing-how-to.herokuapp.com/).
 ## Authors
 
 * **Subal Pant** - [soundreaper](https://github.com/soundreaper)
+* **Shaan Hurley** - [shaannessy25](https://github.com/shaannessy25)
+* **Omar Sagoo** - [omarsagoo](https://github.com/omarsagoo)
+* **Sebastian Abarca** - [abrusebas1997](https://github.com/abrusebas1997)

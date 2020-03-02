@@ -7,16 +7,6 @@ def index():
     """Index page of the application"""
     return render_template('index.html')
 
-@app.route('/adobe')
-def adobe():
-    """Page for editing tutorials using Adobe Software"""
-    return render_template('adobe.html')
-
-@app.route('/sony_vegas')
-def sony_vegas():
-    """Page for editing tutorials using Sony Vegas"""
-    return render_template('sony_vegas.html')
-
 @app.route('/login')
 def login():
     """Page for logging in"""
